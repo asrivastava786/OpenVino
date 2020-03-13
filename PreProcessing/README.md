@@ -1,4 +1,4 @@
-# Preprocessing Inputs - Solution
+# Preprocessing Inputs
 
 ### Pose Estimation
 

@@ -1,4 +1,4 @@
-# Preprocessing Inputs from Pre=Trained Model
+# Preprocessing Inputs from Pre-Trained Model
 
 ### Pose Estimation
 

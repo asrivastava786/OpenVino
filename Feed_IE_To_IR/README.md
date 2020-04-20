@@ -1,4 +1,4 @@
-# Feed an IR to the Inference Engine - Solution
+# Feed an IR to the Inference Engine
 
 To start, I'll import the `IENetwork` and `IECore` from the Inference Engine. The first of
 these is what will hold the Intermediate Representation object, while the second is the 

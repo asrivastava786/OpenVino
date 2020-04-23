@@ -1,8 +1,7 @@
-# Deploy First Edge App
+# Deploy Edge App
 
-## `handle_models.py`
+
 ### `handle_pose`
-
 ```
 def handle_pose(output, input_shape):
     '''

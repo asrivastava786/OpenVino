@@ -1,4 +1,4 @@
-# Deploy Your First Edge App - Solution
+# Deploy First Edge App
 
 ## `handle_models.py`
 

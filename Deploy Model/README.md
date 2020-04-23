@@ -1,9 +1,6 @@
 # Deploy First Edge App
 
 ## `handle_models.py`
-
-First, let's look in `handle_models.py` for each handling of an output.
-
 ### `handle_pose`
 
 ```

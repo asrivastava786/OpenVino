@@ -1,25 +1,17 @@
-# Handling Input Streams - Solution
-
-Let's walk through each of the tasks.
+# Handling Input Streams
 
 > Implement a function that can handle camera image, video file or webcam inputs
 
 The main thing here is just to check the `input` argument passed to the command line.
 
-This will differ by application, but in this implementation, the argument parser makes note
-that "CAM" is an acceptable input meaning to use the webcam. In that case, the `input_stream`
+1) The argument parser makes note that "CAM" is an acceptable input meaning to use the webcam. In that case, the `input_stream`
 should be set to `0`, as `cv2.VideoCapture()` can use the system camera when set to zero.
 
-The next is checking whether the input name is a filepath containing an image file type, 
-such as `.jpg` or `.png`. If so, you'll just set the `input_stream` to that path. You should also
-set the flag here to note it is a single image, so you can save down the image as part of one
-of the later steps.
+2) Checking whether the input name is a filepath containing an image file type, such as `.jpg` or `.png`. If so, you'll just set the `input_stream` to that path. You should also set the flag here to note it is a single image, so you can save down the image as part of one of the later steps.
 
-The last one is for a video file. It's mostly the same as the image, as the `input_stream` is the
-filepath passed to the `input` argument, but you don't need to use a flag here.
+3) It's mostly the same as the image, as the `input_stream` is the filepath passed to the `input` argument, but you don't need to use a flag here.
 
-A last thing you should consider in your app here is exception handling - does your app just
-crash if the input is invalid or missing, or does it still log useful information to the user?
+4) Exception handling - does your app just crash if the input is invalid or missing, or does it still log useful information to the user?
 
 > Use `cv2.VideoCapture()` and open the capture stream
 

@@ -2,6 +2,9 @@
 
 > Implement a function that can handle camera image, video file or webcam inputs
 
+
+![](Input.gif)
+
 The main thing here is just to check the `input` argument passed to the command line.
 
 1) The argument parser makes note that "CAM" is an acceptable input meaning to use the webcam. In that case, the `input_stream`
@@ -73,14 +76,4 @@ Make sure to close your windows here so you don't get stuck with them on-screen.
 ```
 capture.release()
 cv2.destroyAllWindows()
-```
-
-I can then test both an image and a video with the following:
-
-```bash
-python app.py -i blue-car.jpg
-```
-
-```bash
-python app.py -i test_video.mp4
 ```
